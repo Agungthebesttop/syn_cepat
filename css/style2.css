@@ -1,0 +1,392 @@
+@media (min-width: 992px) { 
+    
+body {
+    
+    
+}
+
+.header .navbar {
+    background-color: rgba(0, 0, 0, 0.178);
+    z-index: 1;
+    position: relative;
+
+}
+
+.header .nav-link {
+    text-transform: uppercase;
+    /* margin-right: 10px; */
+}
+
+.header .nav-link:hover:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    width: 50%;
+    margin: auto;
+}
+
+.header a {
+    font-weight: bold;
+}
+
+.header-ongkir {
+    background-color: rgba(24, 22, 20, 0.801); 
+    height: auto;
+    width: 100%;
+}
+
+
+
+/* Slider */
+.slider {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.541)) ,
+    url("../Assets/img/landing-page.jpg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    margin-top: -80px;
+    background-position: center;
+    color: white;
+
+}
+
+.slider h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.568);
+}
+
+.slider .slider-content {
+    margin-top: 300px;
+    text-align: center;
+}
+
+
+
+.visual {
+    margin-top: 350px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* ongkir */
+
+.ongkir-lacak {
+    margin-top: -400px;
+}
+
+.ongkir-lacak .ongkir {
+    background-color: white;
+    width: 100%;
+    height: 417px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 50px 30px 10px 30px;
+}
+
+.ongkir-lacak .lacak {
+    background-color:white;
+    width: 340px;
+    height: 265px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    margin-top: 90px;
+    padding: 45px;
+
+}
+
+.ongkir h4, .lacak h4 {
+    font-weight: bold;
+}
+
+.ongkir h6, .lacak h6 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #8a7c7c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ongkir .btn {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}
+
+.button3 {
+    margin-left: 3px;
+    
+}
+
+/* our-service */
+/* .our-service .service-yes {
+    background: blue;
+    width: 100%;
+    height: 356px;
+    border-radius: 50px 0px 0px 50px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 25px;
+}
+
+.our-service h2{
+    font-weight: bold;
+
+}
+
+.our-service h5 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.our-service .service-yes h6 {
+    margin-bottom: 60px;
+}
+
+.our-service .service-yes .btn {
+    border-radius: 50px;
+    color: white;
+    width: 130px;
+    height: auto;
+    background-color: orange;
+} */
+
+/* Service Reg */
+.our-service .service-reg{
+    background: orange;
+    width: 100%;
+    height: 356px;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: -20px;
+   
+}
+
+.our-service .service-reg .btn {
+    border-radius: 50px;
+    color: white;
+    width: 130px;
+    height: auto;
+    background-color: blue;
+}
+
+
+.our-service .service-reg h6 {
+    margin-bottom: 60px;
+}
+
+/* Service Yes */
+.our-service .service-yes{
+    background: blue;
+    width: 100%;
+    height: 356px;
+    border-radius: 50px 0px 0px 50px;
+    color: white;
+    padding-top: 140px;
+    padding-left: 25px;
+   
+}
+
+
+
+.our-service .service-yes h6 {
+    margin-bottom: 60px;
+}
+
+.our-service .service-yes .btn {
+    border-radius: 50px;
+    color: white;
+    width: 130px;
+    height: auto;
+    background-color: orange;
+} */
+
+
+
+
+/* Berita */
+.berita {
+   margin-top: 100px;
+
+}
+
+.berita .kurir-sepeda {
+    margin-top: 55px;
+    float: left;
+}
+
+.berita .nav {
+    margin-left: 70px;
+}
+
+.berita .tab-content {
+    width: 60%;
+    height: 555px;
+    padding: 25px;
+    overflow: scroll;
+    margin-left: 60px;
+}
+
+
+
+.partners {
+    margin-top: 100px;
+}
+
+.ic_sponsor {
+    margin-left: 50px;
+
+}
+
+.review {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.541)) ,
+    url("../Assets/img/kota.jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin-top: 100px;
+}
+
+.review .apa-kata-mereka {
+    margin-top: 100px;
+}
+
+.review .apa-kata-mereka h1{
+    color: white;
+    border-left: solid 3px white;
+    padding-left: 20px;
+}
+
+.review .apa-kata-mereka h6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
+.review h6 {
+    color: white;
+
+}
+
+.review .review-konten {
+    width: 100%;
+    height: 251px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding-top: 40px;
+    margin-top: 150px;
+}
+
+.review .review-konten h1 {
+    font-weight: bold;
+    font size: 65px;
+}
+
+
+/* footer */
+.footer {
+    height:     auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+
+/* halaman YES */
+.yes .bg-yes {
+    width: 100%;
+    height:504px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(151, 141, 141);
+    border-radius: 10px;
+    margin-top:50px;
+}
+
+.kurir2 {
+    width: 100%;
+    height: 504px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.yes .bg-yes .button1 {
+    width: 210px;
+    height: 40px;
+    color: #9c9292;
+    background: #f5f2f2;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+.yes .bg-yes .button1:hover {
+    box-shadow: 0px 2px 10px grey;
+}
+
+.yes .bg-yes .button2 {
+    width: 210px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.yes-konten {
+    padding: 60px;
+}
+
+.yes-konten h2 {
+    font-weight: bold;
+}
+
+
+/* Rating */
+
+.rating {
+    margin-top: -40px;
+    margin-bottom: -70px;
+}
+
+.rating .review {
+    background: white;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 35px;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+/* Biaya Ongkir */
+.biaya-ongkir .ongkir {
+    background: white;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 35px;
+    box-shadow: 0px 3px 10px grey;
+
+}
+
+
+
+    
+}
+    
+
